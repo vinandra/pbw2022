@@ -24,9 +24,43 @@ hr {
   text-align: center;
 }
 
-td {
+.content td {
   padding: 10px;
 }
+
 .foto {
   max-width: 200px;
+}
+
+.content-sks {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0, 9em;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.content-sks thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-sks th,
+.content-sks td {
+  padding: 12px 15px;
+}
+
+.content-sks tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-sks tbody tr:nth-of-type(even) {
+  background-color: #20ce65;
+}
+
+.content-sks tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
 }
