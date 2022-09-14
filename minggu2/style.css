@@ -38,7 +38,6 @@ hr {
   font-size: 0, 9em;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
 }
 
 .content-sks thead tr {
