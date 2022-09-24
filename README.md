@@ -1,5 +1,4 @@
-# Biodata2022
-memebuat biodata perkuliahan
+# pbw2022
 
-Click on the link below
-**https://Biodata2022.vinandra207.repl.co**
+- minggu2 --> **https://Biodata2022.vinandra207.repl.co**
+- minggu3 --> **https://minggu3.vinandra207.repl.co**
