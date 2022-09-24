@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>minggu3</title>
+    <link
+      rel="shortcut icon"
+      href="valorant-logo-icon-11608279985p9bg0vbcxu-removebg-preview.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="full-screen">
+      <video id="video1" src="valorant.mp4" autoplay muted loop></video>
+      <div class="content">
+        <img src="valorant.png" alt="" />
+        <div class="tombol">
+          <button onclick="play()">mainkan</button>
+          <button onclick="pause()">jeda</button>
+          <button onclick="durasi()">durasi</button>
+        </div>
+      </div>
+    </div>
+    <script>
+      var myVideo = document.getElementById("video1");
+
+      function play() {
+        myVideo.play();
+      }
+
+      function pause() {
+        myVideo.pause();
+      }
+
+      function durasi() {
+        alert(myVideo.duration);
+      }
+    </script>
+  </body>
+</html>
