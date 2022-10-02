@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minggu4</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form name="form 1" method="post" action="kirim.php">
+      <div class="wrapper">
+        <div class="title">FORMULIR PPDB</div>
+        <div class="form">
+          <p>Pendaftaran</p>
+          <div class="inputfield">
+            <label for="">NISN</label>
+            <input
+              type="number"
+              name="fnisn"
+              placeholder="masukan NISN"
+              class="input"
+            />
+          </div>
+          <div class="inputfield">
+            <label for="">Asal Sekolah</label>
+            <input
+              type="text"
+              name="fasal"
+              placeholder="masukan asal sekolah"
+              class="input"
+            />
+          </div>
+          <div class="inputfield">
+            <label for="">Tahun Lulus</label>
+            <input type="date" name="flulus" class="input" />
+          </div>
+
+          <!-- data calon peserta -->
+
+          <p>Data Calon Peserta</p>
+          <div class="inputfield">
+            <label for="">Nama Lengkap</label>
+            <input
+              type="text"
+              name="fnama"
+              placeholder="masukan nama lengkap"
+              class="input"
+            />
+          </div>
+          <div class="inputfield">
+            <label for="">NIK</label>
+            <input
+              type="number"
+              name="fnik"
+              placeholder="masukan NIK"
+              class="input"
+            />
+          </div>
+          <div class="inputfield">
+            <label for="">Tempat/Tanggal Lahir</label>
+            <input type="date" name="fttg" class="input" />
+          </div>
+          <div class="inputfield">
+            <label for=""
+              >fotocopy akte kelahiran yang telah di legalisir</label
+            >
+            <input type="file" name="ffc" class="input" />
+          </div>
+          <div class="inputfield">
+            <label for="">jenis kelamin</label>
+            <select class="custom_select">
+              <option value="">pilih</option>
+              <option value="flakilaki">laki laki</option>
+              <option value="fperempuan">perempuan</option>
+            </select>
+          </div>
+          <div class="inputfield">
+            <label for="">Alamat</label>
+            <input
+              type="textarea"
+              name="falamat"
+              placeholder="masukan alamat"
+              class="input"
+            />
+          </div>
+          <div class="inputfield">
+            <label for="">Desa dan kelurahan</label>
+            <input
+              type="text"
+              name="fdesa"
+              placeholder="masukan desa"
+              class="input"
+            />
+          </div>
+          <div class="inputfield">
+            <label for="">kecamatan</label>
+            <input
+              type="text"
+              name="fkecamatan"
+              placeholder="masukan kecamatan"
+              class="input"
+            />
+          </div>
+          <div class="inputfield">
+            <label for="">Kabupaten</label>
+            <input
+              type="text"
+              name="fkabu"
+              placeholder="masukan kabupaten"
+              class="input"
+            />
+          </div>
+          <div class="inputfield">
+            <label for="">Provinsi</label>
+            <input
+              type="text"
+              name="prov"
+              placeholder="masukan Provinsi"
+              class="input"
+            />
+          </div>
+          <div class="inputfield">
+            <label for="">Email Aktif</label>
+            <input
+              type="text"
+              name="femail"
+              placeholder="masukan email"
+              class="input"
+            />
+          </div>
+
+          <!-- data orang tua -->
+
+          <p>Data Orang Tua</p>
+
+          <div class="inputfield">
+            <label for="">Lampirkan KK</label>
+            <input type="file" name="lampiran" class="input" />
+          </div>
+          <div class="inputfield">
+            <label for="">Nomor Kartu Keluarga</label>
+            <input
+              type="number"
+              name="fnkk"
+              placeholder="masukan nomor kk"
+              class="input"
+            />
+          </div>
+          <div class="inputfield">
+            <label for="">Nama Ayah Kandung</label>
+            <input
+              type="text"
+              name="fayah"
+              placeholder="ayah kandung"
+              class="input"
+            />
+          </div>
+          <div class="inputfield">
+            <label for="">Agama</label>
+            <input
+              type="text"
+              name="fagama2"
+              placeholder="masukan agama"
+              class="input"
+            />
+          </div>
+          <div class="inputfield">
+            <label for="">Pekerjaan</label>
+            <input
+              type="text"
+              name="fpekerjaan"
+              placeholder="masukan pekerjaan"
+              class="input"
+            />
+          </div>
+          <div class="inputfield">
+            <label for="">Alamat orang Tua</label>
+            <input
+              type="text"
+              name="falamatOrtu"
+              placeholder="masukan alamat "
+              class="input"
+            />
+          </div>
+          <div class="inputfield">
+            <label for="">Desa</label>
+            <input
+              type="text"
+              name="fdesa2"
+              placeholder="maukan desa"
+              class="input"
+            />
+          </div>
+          <div class="inputfield">
+            <label for="">Kecamatan</label>
+            <input
+              type="text"
+              name="fkecamatan2"
+              placeholder="masukan kecamatan"
+              class="input"
+            />
+          </div>
+          <div class="inputfield">
+            <label for="">Provinsi</label>
+            <input
+              type="text"
+              name="fprov2"
+              placeholder="masukan provinsi"
+              class="input"
+            />
+          </div>
+          <div class="inputfield">
+            <label for="">Kabupaten</label>
+            <input
+              type="text"
+              name="fkabu2"
+              placeholder="masukan kabupaten"
+              class="input"
+            />
+          </div>
+          <div class="inputfield terms">
+            <label class="check">
+              <input type="checkbox" />
+              <span class="checkmark"></span>
+            </label>
+            <p>Menyetujui syarat dan ketentuan</p>
+          </div>
+          <div class="inputfield">
+            <input type="submit" value="Mendaftar" class="btn" />
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
