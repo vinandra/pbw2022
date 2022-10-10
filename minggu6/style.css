@@ -1,0 +1,49 @@
+body {
+  background-color: linen;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+
+img {
+  width: 150px;
+}
+
+a {
+  direction: none;
+}
+
+section {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+table,
+thead,
+th {
+  border: 1px solid;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* table {
+  width: 400px;
+}
+
+table,
+th,
+td {
+  
+  border-collapse: collapse;
+  border: 1px solid black;
+} */
