@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DOM API javascript </title>
+</head>
+<body>
+    <p class="paragraf"> Halo ini adalah Paragraf pertama </p>
+    <p class="paragraf"> Halo ini adalah Paragraf kedua </p>
+    <p class="paragraf"> Halo ini adalah Paragraf ketiga </p>
+
+    <script>
+        var paragraf=document.getElementsByClassName("paragraf");
+        console.log(paragraf);
+
+        paragraf[0].style.color= "blue";
+        paragraf[1].style.margin="25px";
+    </script>
+    
+</body>
+</html>
